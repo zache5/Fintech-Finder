@@ -15,6 +15,9 @@ from typing import Any, List,
 from web3 import Web3, and 
 w3 = Web3(Web3.HTTPProvider('HTTP://127.0.0.1:7545'))
 
+## Usage
+The code creates a Fintech Finder customer interface and includes wallet operations. The customer's Ethereum wallet and account information is provided to the application. The following steps outline how to use the code: Create a variable named account and set it equal to a call on the generate_account function. This function will create the customer's HD wallet and Ethereum account. In the Streamlit sidebar section of the code, define a st.sidebar.write function to display the balance of the customer's account. Inside this function, call the get_balance function and pass it the customer's Ethereum account.address.
+
 ## Setting up the Environment
 In order to set up the environment, you'll need to:
 
